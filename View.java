@@ -22,7 +22,7 @@ public class View extends JFrame
 	Point playerLoc;
 	BufferedImage bg;
 	BufferedImage enemy;
-	BufferedImage player;
+	//BufferedImage player;
 	
 	
 	public View(int x, int y) throws IOException
@@ -40,7 +40,7 @@ public class View extends JFrame
 		//this.addKeyListener(new KBListener(playerLoc, board));
 		bg = ImageIO.read(new File("background.png"));
 		enemy = ImageIO.read(new File("enemy.png"));
-		player = ImageIO.read(new File("player.png"));
+		//player = ImageIO.read(new File("player.png"));
 		
 		
 		this.setVisible(true);
